@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papier Kamień Nożyce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="container">Papier Kamień Nożyce</h1>
+    </header>
+    <main>
+        <div class="komputer">
+            
+            <p id="Wybor_komputera">Komputer wybrał: ...</p>
+
+            <p id="wynik">Wynik:</p>
+
+            <p id="Wybor_twoj">Wybrałeś:...</p>
+
+            <div class="wybory">
+                <button type="button" onclick="wybor_Gracza('Papier')">📄</button>
+                <button type="button" onclick="wybor_Gracza('Kamień')">🪨</button>
+                <button type="button" onclick="wybor_Gracza('Nożyce')">✂️</button>
+            </div>
+        </div>
+
+        <aside class="prawy">
+            <p><h3>Tablica wyników:</h3></p>
+            <p>Gracz: <span id="wynik_Gracza">0</span></p>
+            <p>Komputer: <span id="wynik_Komputera">0</span></p>
+        </aside>
+
+        <footer>
+            <h3>Strone wykonał: Patryk Paź</h3>
+        </footer>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
